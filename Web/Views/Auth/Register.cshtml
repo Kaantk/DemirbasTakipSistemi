@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Kayıt Ol";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Kayıt Ol</h1>
+    <br />
+    <form asp-controller="Auth" asp-action="Register" method="post">
+        <label>İsim</label>
+        <input type="text" name="firstName" />
+        <label>Soyİsim</label>
+        <input type="text" name="lastName" />
+        <label>Email</label>
+        <input type="email" name="email" />
+        <label>Şifre</label>
+        <input type="password" name="password" />
+        <button type="submit">Kayıt Ol</button>
+    </form>
+</div>

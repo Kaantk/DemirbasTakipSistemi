@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Core.Utilities.Security.Jwt;
 using Microsoft.AspNetCore.Mvc;
 using Web.Models;
 
@@ -15,6 +16,14 @@ namespace Web.Controllers
 
         public IActionResult Index()
         {
+            if (TempData["UserToken"] != null)
+            {
+                var accessToken = System.Text.Json.JsonSerializer
+                    .Deserialize<AccessToken>(TempData["UserToken"].ToString());
+
+                return View(accessToken); // AccessToken modelini view'e gönder
+            }
+
             return View();
         }
 

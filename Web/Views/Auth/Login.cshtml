@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Giriş Yap";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Giriş Yap</h1>
+    <br />
+    <form asp-controller="Auth" asp-action="Login" method="post">
+        <label>Email</label>
+        <input type="email" name="email" />
+        <label>Şifre</label>
+        <input type="password" name="password" />
+        <button type="submit">Giriş Yap</button>
+        @ViewBag.ErrorMessage
+    </form>
+</div>

@@ -28,12 +28,14 @@ namespace Business.Concrete
                 return new ErrorDataResult<User>(Messages.UserNotFound);
             }
 
+            var user = userToCheck;
+
             if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password, userToCheck.PasswordHash, userToCheck.PasswordSalt))
             {
                 return new ErrorDataResult<User>(Messages.PasswordError);
             }
 
-            return new SuccessDataResult<User>(Messages.SuccessfulLogin);
+            return new SuccessDataResult<User>(user, Messages.SuccessfulLogin);
         }
 
         public IResult UserExists(string email)
