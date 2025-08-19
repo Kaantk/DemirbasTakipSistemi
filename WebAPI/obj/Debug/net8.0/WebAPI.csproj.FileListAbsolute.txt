@@ -101,3 +101,4 @@ C:\Users\ktetik\source\repos\DemirbasTakipSistemi\WebAPI\bin\Debug\net8.0\Micros
 C:\Users\ktetik\source\repos\DemirbasTakipSistemi\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\ktetik\source\repos\DemirbasTakipSistemi\WebAPI\obj\Debug\net8.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ktetik\source\repos\DemirbasTakipSistemi\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ktetik\source\repos\DemirbasTakipSistemi\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json

@@ -33,6 +33,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Core\\Core.csproj"
+              },
               "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\DataAccess\\DataAccess.csproj": {
                 "projectPath": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\DataAccess\\DataAccess.csproj"
               },

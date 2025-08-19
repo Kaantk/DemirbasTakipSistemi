@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
 using Core.Entities;
+using Core.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 namespace Core.DataAccess.EntityFramework

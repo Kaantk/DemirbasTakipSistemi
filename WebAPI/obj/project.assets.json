@@ -1130,6 +1130,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Autofac": "8.4.0",
+          "Core": "1.0.0",
           "DataAccess": "1.0.0",
           "Entities": "1.0.0"
         },

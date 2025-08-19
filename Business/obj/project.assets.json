@@ -2996,6 +2996,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Autofac >= 8.4.0",
+      "Core >= 1.0.0",
       "DataAccess >= 1.0.0",
       "Entities >= 1.0.0"
     ]
@@ -3033,6 +3034,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Core\\Core.csproj"
+            },
             "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\DataAccess\\DataAccess.csproj": {
               "projectPath": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\DataAccess\\DataAccess.csproj"
             },
