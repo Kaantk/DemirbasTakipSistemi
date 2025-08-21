@@ -55,8 +55,8 @@ namespace Web
                         // Yetkisiz (401)
                         OnChallenge = context =>
                         {
-                            context.HandleResponse(); // default 401 engelle
-                            context.Response.Redirect("/home/notfound");
+                            context.HandleResponse();
+                            context.Response.Redirect("/auth/login"); // Yetkisiz erişim durumunda kullanıcıyı login sayfasına yönlendir
                             return Task.CompletedTask;
                         },
 
@@ -131,7 +131,7 @@ namespace Web
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Auth}/{action=Login}/{id?}");
+                pattern: "{controller=home}/{action=index}/{id?}");
 
             app.Run();
         }

@@ -1,12 +1,11 @@
+wwwroot\assets\images\404NotFound.jpg
 wwwroot\assets\images\bfbLogo.png
 wwwroot\assets\images\blueVector.png
 wwwroot\assets\images\illustrations.jpg
 wwwroot\assets\images\purpleVector.png
-wwwroot\css\desktop.css
-wwwroot\css\mobile.css
 wwwroot\css\normalize.css
+wwwroot\css\pages\login.css
 wwwroot\css\style.css
-wwwroot\css\tablet.css
 wwwroot\favicon.ico
 wwwroot\js\script.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

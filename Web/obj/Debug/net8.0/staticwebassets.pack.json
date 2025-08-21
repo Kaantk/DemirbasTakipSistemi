@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Web.zmm9ivslsu.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\images\\404NotFound.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\404NotFound.jpg"
+    },
+    {
       "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\images\\bfbLogo.png",
       "PackagePath": "staticwebassets\\assets\\images\\bfbLogo.png"
     },
@@ -21,24 +25,16 @@
       "PackagePath": "staticwebassets\\assets\\images\\purpleVector.png"
     },
     {
-      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\desktop.css",
-      "PackagePath": "staticwebassets\\css\\desktop.css"
-    },
-    {
-      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\mobile.css",
-      "PackagePath": "staticwebassets\\css\\mobile.css"
-    },
-    {
       "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\normalize.css",
       "PackagePath": "staticwebassets\\css\\normalize.css"
     },
     {
-      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
+      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\pages\\login.css",
+      "PackagePath": "staticwebassets\\css\\pages\\login.css"
     },
     {
-      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\tablet.css",
-      "PackagePath": "staticwebassets\\css\\tablet.css"
+      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\favicon.ico",

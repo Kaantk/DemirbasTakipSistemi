@@ -16,3 +16,5 @@ C:\Users\ktetik\source\repos\DemirbasTakipSistemi\DataAccess\obj\Debug\net8.0\re
 C:\Users\ktetik\source\repos\DemirbasTakipSistemi\DataAccess\obj\Debug\net8.0\DataAccess.pdb
 C:\Users\ktetik\source\repos\DemirbasTakipSistemi\DataAccess\obj\Debug\net8.0\ref\DataAccess.dll
 C:\Users\ktetik\source\repos\DemirbasTakipSistemi\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
+C:\Users\ktetik\source\repos\DemirbasTakipSistemi\DataAccess\bin\Debug\net8.0\DataAccess.runtimeconfig.json
+C:\Users\ktetik\source\repos\DemirbasTakipSistemi\DataAccess\obj\Debug\net8.0\DataAccess.genruntimeconfig.cache

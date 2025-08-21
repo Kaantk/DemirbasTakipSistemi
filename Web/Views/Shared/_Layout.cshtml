@@ -13,18 +13,43 @@
 	<link rel="stylesheet" href="~/css/normalize.css" asp-append-version="true" />
 	<!-- Style CSS -->
 	<link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
-	<!-- Mobile CSS -->
-	<link rel="stylesheet" href="~/css/mobile.css" asp-append-version="true" />
-	<!-- Tablet CSS -->
-	<link rel="stylesheet" href="~/css/tablet.css" asp-append-version="true" />
-	<!-- Desktop CSS -->
-	<link rel="stylesheet" href="~/css/desktop.css" asp-append-version="true" />
+	<!-- Sayfa özel CSS -->
+	@await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
 
-	<div id="container">
-		@RenderBody()
-	</div>
+	<header>
+		<div id="header-container">
+			<div id="header-wrapper">
+				<!-- Header Logo -->
+				<img src="~/assets/images/bfblogo.png" />
+				<div>
+					<nav>
+						<ul id="header-menu-list">
+							<li>a</li>
+							<li>a</li>
+							<li>a</li>
+							<li>a</li>
+							<li>a</li>
+							<li>a</li>
+						</ul>
+					</nav>
+				</div>
+				<div>butonlar</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div id="main-container">
+			<div id="main-wrapper">
+				@RenderBody()
+			</div>
+			<footer>
+				footer
+			</footer>
+		</div>
+	</main>
 
 	<script src="~/js/script.js" asp-append-version="true"></script>
 	@await RenderSectionAsync("Scripts", required: false)

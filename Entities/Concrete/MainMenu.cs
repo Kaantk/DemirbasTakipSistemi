@@ -10,7 +10,7 @@ namespace Entities.Concrete
     public class MainMenu : IEntity
     {
         public int Id { get; set; }
-        public string Caption { get; set; }
-        public bool IsActive { get; set; }
+        public string? Caption { get; set; }
+        public bool? IsActive { get; set; }
     }
 }

@@ -6,6 +6,7 @@ using Web.Models;
 
 namespace Web.Controllers
 {
+    [Authorize] // Bu denetleyicide herhangi bir eyleme eriþmeden önce kullanýcýnýn kimliðinin doðrulanmasýný saðlar.
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -15,7 +16,6 @@ namespace Web.Controllers
             _logger = logger;
         }
 
-        [Authorize(Roles = "User")]
         public IActionResult Index()
         {
             return View();

@@ -1,0 +1,4 @@
+C:\Users\ktetik\source\repos\DemirbasTakipSistemi\Web\wwwroot\css\desktop.css
+C:\Users\ktetik\source\repos\DemirbasTakipSistemi\Web\wwwroot\css\login.css
+C:\Users\ktetik\source\repos\DemirbasTakipSistemi\Web\wwwroot\css\mobile.css
+C:\Users\ktetik\source\repos\DemirbasTakipSistemi\Web\wwwroot\css\tablet.css

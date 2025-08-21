@@ -10,7 +10,7 @@ namespace Entities.Concrete
     public class MenuMapping : IEntity
     {
         public int Id { get; set; }
-        public int MainMenuId { get; set; }
-        public int SubMenuId { get; set; }
+        public int? MainMenuId { get; set; }
+        public int? SubMenuId { get; set; }
     }
 }

@@ -61,7 +61,7 @@ namespace Web.Controllers
                     });
 
                 // Kullanıcıyı anasayfaya yönlendir
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("index", "home");
             }
 
             // Token oluşturma başarısızsa hata mesajı döndür
@@ -92,7 +92,7 @@ namespace Web.Controllers
                 HttpContext.Session.SetString("UserToken", System.Text.Json.JsonSerializer.Serialize(result.Data));
 
                 // Kullanıcıyı anasayfaya yönlendir
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("index", "home");
             }
 
             // Token oluşturma başarısızsa hata mesajı döndür
