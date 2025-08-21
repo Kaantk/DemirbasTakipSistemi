@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|solutionrelative:web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|solutionrelative:web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|solutionrelative:web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|solutionrelative:web\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|solutionrelative:web\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC266481-4E5F-4D9F-B79A-42D89D551B6F}|Business\\Business.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC266481-4E5F-4D9F-B79A-42D89D551B6F}|Business\\Business.csproj|solutionrelative:business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|solutionrelative:web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32A9FA6A-AB3E-4BB6-8869-7F9A9BD3F85B}|WebAPI\\WebAPI.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32A9FA6A-AB3E-4BB6-8869-7F9A9BD3F85B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{557C1AAA-7533-465A-960C-DCFE9A476661}|Entities\\Entities.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\entities\\dtos\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{557C1AAA-7533-465A-960C-DCFE9A476661}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F10FA1CA-64F5-4B7B-A3BB-9AA58B696E13}|Web\\Web.csproj|solutionrelative:web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC266481-4E5F-4D9F-B79A-42D89D551B6F}|Business\\Business.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC266481-4E5F-4D9F-B79A-42D89D551B6F}|Business\\Business.csproj|solutionrelative:business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC266481-4E5F-4D9F-B79A-42D89D551B6F}|Business\\Business.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC266481-4E5F-4D9F-B79A-42D89D551B6F}|Business\\Business.csproj|solutionrelative:business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D99F84-B7B8-4AAF-BE61-0746BFEE6D1D}|Core\\Core.csproj|c:\\users\\ktetik\\source\\repos\\demirbastakipsistemi\\core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D99F84-B7B8-4AAF-BE61-0746BFEE6D1D}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "Web\\Views\\Auth\\Login.cshtml",
               "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Views\\Auth\\Login.cshtml",
               "RelativeToolTip": "Web\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-19T12:15:25.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserForLoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Entities\\Dtos\\UserForLoginDto.cs",
-              "RelativeDocumentMoniker": "Entities\\Dtos\\UserForLoginDto.cs",
-              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Entities\\Dtos\\UserForLoginDto.cs",
-              "RelativeToolTip": "Entities\\Dtos\\UserForLoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T11:27:30.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T11:28:52.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Web\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T11:08:32.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Views\\Auth\\Register.cshtml",
-              "RelativeDocumentMoniker": "Web\\Views\\Auth\\Register.cshtml",
-              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Views\\Auth\\Register.cshtml",
-              "RelativeToolTip": "Web\\Views\\Auth\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-19T11:00:53.978Z",
+              "WhenOpened": "2025-08-21T06:15:17.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Web\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Web\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Web\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Web\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-19T10:58:15.175Z",
+              "WhenOpened": "2025-08-21T06:14:11.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AuthManager.cs",
-              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Business\\Concrete\\AuthManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\AuthManager.cs",
-              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Business\\Concrete\\AuthManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\AuthManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAApwCYAAAAIAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:55:28.466Z",
+              "WhenOpened": "2025-08-21T05:03:18.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAMwEAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:25:06.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\WebAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\WebAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB0AAAAfAAAAAAAAAA==",
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Business\\Concrete\\UserManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\UserManager.cs",
+              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Business\\Concrete\\UserManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\UserManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:55:28.483Z",
+              "WhenOpened": "2025-08-20T13:25:18.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "EfEntityRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:23:32.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Web\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwC4AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAewE8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T10:55:22.853Z",
+              "WhenOpened": "2025-08-20T13:23:12.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Business\\Concrete\\AuthManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Business\\Concrete\\AuthManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\AuthManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowEQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T13:22:59.033Z",
               "EditorCaption": ""
             }
           ]

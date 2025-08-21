@@ -1,0 +1,122 @@
+﻿@media only screen and (min-width: 426px) {
+    #login-wrapper {
+        height: 100dvh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #illustrations {
+        width: 60%;
+    }
+
+    .blueVector {
+        width: 200px;
+        position: absolute;
+        top: 15%;
+        right: 1%;
+    }
+
+    .purpleVector {
+        width: 200px;
+        position: absolute;
+        bottom: 15%;
+        left: 1%;
+    }
+
+    #login-container {
+        position: relative;
+        width: 90%;
+        border-radius: 18px;
+        padding: 32px 24px;
+        background-color: white;
+        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+    }
+
+    #login-base-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .bfbLogo {
+        width: 75px;
+        height: 60px;
+    }
+
+    .title-with-lines {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+        .title-with-lines::before,
+        .title-with-lines::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: #E5EAEF;
+            width: 100%;
+        }
+
+        .title-with-lines::before {
+            margin-right: 10px;
+        }
+
+        .title-with-lines::after {
+            margin-left: 10px;
+        }
+
+    .section-title {
+        color: #747576;
+        font-size: 14px;
+    }
+
+    #login-base-form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+        #login-base-form label {
+            color: #111C2D;
+            font-size: 14px;
+        }
+
+        #login-base-form input {
+            width: 100%;
+            height: 40px;
+            border: 1px solid #E9E9E9;
+            border-radius: 4px;
+            padding: 0px 10px;
+            margin-top: 4px;
+        }
+
+    #button-login-form {
+        background-color: #0085DB;
+        border: none;
+        height: 30px;
+        color: white;
+        width: 100%;
+        border-radius: 40px;
+    }
+
+        #button-login-form:hover {
+            cursor: pointer;
+        }
+
+    .forgot-password-link {
+        font-size: 12px;
+        text-decoration: none;
+        float: right;
+    }
+}

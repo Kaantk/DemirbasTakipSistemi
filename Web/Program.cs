@@ -1,6 +1,11 @@
+ï»¿using System.Security.Claims;
+using System.Text;
+using System.Text.Json;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Azure;
 using Business.DependecyResolvers.Autofac;
+using Core.Utilities.Results;
 using Core.Utilities.Security.Encyption;
 using Core.Utilities.Security.Jwt;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -38,10 +43,29 @@ namespace Web
                         ValidateIssuer = true,
                         ValidateAudience = true,
                         ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
                         ValidIssuer = tokenOptions.Issuer,
                         ValidAudience = tokenOptions.Audience,
-                        ValidateIssuerSigningKey = true,
-                        IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenOptions.SecurityKey)),
+                        RoleClaimType = ClaimTypes.Role
+                    };
+
+                    options.Events = new JwtBearerEvents
+                    {
+                        // Yetkisiz (401)
+                        OnChallenge = context =>
+                        {
+                            context.HandleResponse(); // default 401 engelle
+                            context.Response.Redirect("/home/notfound");
+                            return Task.CompletedTask;
+                        },
+
+                        // Forbidden (403)
+                        OnForbidden = context =>
+                        {
+                            context.Response.Redirect("/home/notfound");
+                            return Task.CompletedTask;
+                        }
                     };
                 });
 
@@ -51,9 +75,9 @@ namespace Web
 
             builder.Services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromMinutes(30); // Kullanýcý 30 dakika boyunca istek yapmazsa session silinir
-                options.Cookie.HttpOnly = true; // JS ile session'ýn cookie bilgilerine eriþilmesini engeller
-                options.Cookie.IsEssential = true; // Session'ý kullanabilmek için bu ayarýn gerekli olduðunu belirtir
+                options.IdleTimeout = TimeSpan.FromMinutes(30); // KullanÄ±cÄ± 30 dakika boyunca istek yapmazsa session silinir
+                options.Cookie.HttpOnly = true; // JS ile session'Ä±n cookie bilgilerine eriÅŸilmesini engeller
+                options.Cookie.IsEssential = true; // Session'Ä± kullanabilmek iÃ§in bu ayarÄ±n gerekli olduÄŸunu belirtir
             });
 
             var app = builder.Build();
@@ -77,14 +101,37 @@ namespace Web
 
             app.UseRouting();
 
+            app.Use(async (context, next) =>
+            {
+                if (!context.Request.Headers.ContainsKey("Authorization") &&
+                    context.Request.Cookies.ContainsKey("UserToken"))
+                {
+                    // Cookie'den JSON string'i al
+                    var cookieValue = context.Request.Cookies["UserToken"];
+
+                    // JSON'dan AccessToken nesnesini deserialize et
+                    var tokenData = System.Text.Json.JsonSerializer.Deserialize<AccessToken>(cookieValue);
+
+                    if (tokenData != null)
+                    {
+                        // Sadece token string'i header'a ekle
+                        context.Request.Headers.Add("Authorization", "Bearer " + tokenData.Token);
+                    }
+                }
+
+                await next();
+            });
+
             app.UseAuthentication();
             app.UseAuthorization();
+
+            app.UseStatusCodePagesWithRedirects("home/notfound");
 
             app.UseSession();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Auth}/{action=Login}/{id?}");
 
             app.Run();
         }

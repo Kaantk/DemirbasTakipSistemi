@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using Core.Utilities.Security.Jwt;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Web.Models;
 
@@ -14,16 +15,14 @@ namespace Web.Controllers
             _logger = logger;
         }
 
+        [Authorize(Roles = "User")]
         public IActionResult Index()
         {
-            if (TempData["UserToken"] != null)
-            {
-                var accessToken = System.Text.Json.JsonSerializer
-                    .Deserialize<AccessToken>(TempData["UserToken"].ToString());
+            return View();
+        }
 
-                return View(accessToken); // AccessToken modelini view'e gönder
-            }
-
+        public IActionResult NotFound()
+        {
             return View();
         }
 

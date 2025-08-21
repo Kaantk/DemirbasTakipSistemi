@@ -1,9 +1,11 @@
 ﻿using Business.Abstract;
 using Entities.Dtos;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Web.Controllers
 {
+    [Controller]
     public class AuthController : Controller
     {
         private IAuthService _authService;
@@ -47,6 +49,17 @@ namespace Web.Controllers
                 // Kullanıcı token'ını session'a kaydet
                 HttpContext.Session.SetString("UserToken", System.Text.Json.JsonSerializer.Serialize(result.Data));
 
+                // Cookie'ye kaydet (string olarak)
+                Response.Cookies.Append("UserToken",
+                    System.Text.Json.JsonSerializer.Serialize(result.Data),
+                    new CookieOptions
+                    {
+                        HttpOnly = true,
+                        Secure = true,
+                        SameSite = SameSiteMode.Strict,
+                        Expires = DateTimeOffset.UtcNow.AddHours(1)
+                    });
+
                 // Kullanıcıyı anasayfaya yönlendir
                 return RedirectToAction("Index", "Home");
             }
@@ -76,7 +89,7 @@ namespace Web.Controllers
             // Access token oluşturma başarılıysa kullanıcıyı yönlendir
             if (result.Success)
             {
-                HttpContext.Session.SetString("UserToken",System.Text.Json.JsonSerializer.Serialize(result.Data));
+                HttpContext.Session.SetString("UserToken", System.Text.Json.JsonSerializer.Serialize(result.Data));
 
                 // Kullanıcıyı anasayfaya yönlendir
                 return RedirectToAction("Index", "Home");

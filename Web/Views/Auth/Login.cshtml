@@ -1,16 +1,44 @@
 ﻿@{
-    ViewData["Title"] = "Giriş Yap";
+	ViewData["Title"] = "Giriş Yap";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Giriş Yap</h1>
-    <br />
-    <form asp-controller="Auth" asp-action="Login" method="post">
-        <label>Email</label>
-        <input type="email" name="email" />
-        <label>Şifre</label>
-        <input type="password" name="password" />
-        <button type="submit">Giriş Yap</button>
-        @ViewBag.ErrorMessage
-    </form>
-</div>
+<main>
+	<div id="login-wrapper">
+		<!-- Blue Vector Background -->
+		<img class="blueVector" src="~/assets/images/bluevector.png" />
+		<!-- Purple Vector Background -->
+		<img class="purpleVector" src="~/assets/images/purplevector.png" />
+		<div id="login-container">
+			<!-- Illustrations -->
+			<img id="illustrations" src="~/assets/images/illustrations.jpg" />
+			<!-- Login Base Layout -->
+			<div id="login-base-layout">
+				<!-- Logo -->
+				<div>
+					<img class="bfbLogo" src="~/assets/images/bfblogo.png" />
+				</div>
+				<!-- Giriş Yap -->
+				<div class="title-with-lines">
+					<span class="section-title">Giriş Yap</span>
+				</div>
+				<!-- Login Form -->
+				<div class="login-form-base-layout">
+					<form id="login-base-form" asp-controller="Auth" asp-action="Login" method="post">
+						<div>
+							<label for="email">E-mail</label>
+							<input type="email" id="email" name="email" autocomplete="email" required />
+						</div>
+						<div>
+							<label for="password">Şifre</label>
+							<input type="password" id="password" name="password" autocomplete="current-password" required />
+						</div>
+						<div>
+							@Html.ActionLink("Şifremi unuttum ?", "ForgotPassword", "Auth", null, new { @class = "forgot-password-link" })
+						</div>
+						<button id="button-login-form" type="submit">Giriş Yap</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>

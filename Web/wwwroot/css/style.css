@@ -1,0 +1,86 @@
+/* Genel font ayarý */
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Poppins Thin */
+.poppins-thin {
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Poppins ExtraLight */
+.poppins-extralight {
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* Poppins Light */
+.poppins-light {
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Poppins Regular */
+.poppins-regular {
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Poppins Italic */
+.poppins-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Poppins Medium */
+.poppins-medium {
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Poppins SemiBold */
+.poppins-semibold {
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Poppins Bold */
+.poppins-bold {
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Poppins ExtraBold */
+.poppins-extrabold {
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Poppins Black */
+.poppins-black {
+    font-weight: 900;
+    font-style: normal;
+}
+
+p {
+    margin: 0px;
+}
+
+body {
+    height: 100dvh;
+    background-color: #F0F5F9;
+}
+
+#container {
+    height: 100dvh;
+}
+
+main {
+    height: 100dvh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
