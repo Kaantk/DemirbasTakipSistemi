@@ -25,12 +25,32 @@
       "PackagePath": "staticwebassets\\assets\\images\\purpleVector.png"
     },
     {
-      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\normalize.css",
-      "PackagePath": "staticwebassets\\css\\normalize.css"
+      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\bell.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\bell.svg"
     },
     {
-      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\pages\\login.css",
-      "PackagePath": "staticwebassets\\css\\pages\\login.css"
+      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\blueArrowBack.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\blueArrowBack.svg"
+    },
+    {
+      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\user.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\ForgotPassword.css",
+      "PackagePath": "staticwebassets\\css\\Pages\\ForgotPassword.css"
+    },
+    {
+      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Pages\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\ResetPassword.css",
+      "PackagePath": "staticwebassets\\css\\Pages\\ResetPassword.css"
+    },
+    {
+      "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
     },
     {
       "Id": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\style.css",

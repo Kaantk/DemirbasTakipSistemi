@@ -3,7 +3,7 @@
 }
 
 @section Styles {
-	<link href="~/css/pages/login.css" rel="stylesheet" />
+	<link href="~/css/Pages/Login.css" rel="stylesheet" />
 }
 
 <main>
@@ -21,6 +21,10 @@
 				<div>
 					<img class="bfbLogo" src="~/assets/images/bfblogo.png" />
 				</div>
+				<!-- Proje Başlık -->
+				<div>
+					<h1 id="project-title">Demirbaş Takip Sistemi</h1>
+				</div>
 				<!-- Giriş Yap -->
 				<div class="title-with-lines">
 					<span class="section-title">Giriş Yap</span>
@@ -30,14 +34,21 @@
 					<form id="login-base-form" asp-controller="Auth" asp-action="Login" method="post">
 						<div>
 							<label for="email">E-mail</label>
-							<input type="email" id="email" name="email" autocomplete="email" required />
+							<input type="email" id="email" name="Email" autocomplete="email" required
+								   value="@Model?.Email" />
 						</div>
 						<div>
 							<label for="password">Şifre</label>
-							<input type="password" id="password" name="password" autocomplete="current-password" required />
+							<input type="password" id="password" name="Password" autocomplete="current-password" required />
 						</div>
 						<div>
-							@Html.ActionLink("Şifremi unuttum ?", "ForgotPassword", "Auth", null, new { @class = "forgot-password-link" })
+							@if (ViewBag.ErrorMessage != null)
+							{
+								<span id="errorMessage" class="alert alert-danger">
+									@ViewBag.ErrorMessage
+								</span>
+							}
+							<a href="/auth/forgotPassword" class="forgot-password-link">Şifremi unuttum ?</a>
 						</div>
 						<button id="button-login-form" type="submit">Giriş Yap</button>
 					</form>

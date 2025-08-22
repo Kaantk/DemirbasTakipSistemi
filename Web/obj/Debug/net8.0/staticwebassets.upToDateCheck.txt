@@ -3,8 +3,13 @@ wwwroot\assets\images\bfbLogo.png
 wwwroot\assets\images\blueVector.png
 wwwroot\assets\images\illustrations.jpg
 wwwroot\assets\images\purpleVector.png
+wwwroot\assets\svg\bell.svg
+wwwroot\assets\svg\blueArrowBack.svg
+wwwroot\assets\svg\user.svg
 wwwroot\css\normalize.css
-wwwroot\css\pages\login.css
+wwwroot\css\Pages\ForgotPassword.css
+wwwroot\css\Pages\Login.css
+wwwroot\css\Pages\ResetPassword.css
 wwwroot\css\style.css
 wwwroot\favicon.ico
 wwwroot\js\script.js

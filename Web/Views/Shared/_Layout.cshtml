@@ -8,7 +8,7 @@
 	<meta name="robots" content="index, follow" />
 	<title>@ViewData["Title"]</title>
 	<!-- Font Link -->
-	<link rel="stylesheet" href="https://use.typekit.net/nzp2qgy.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- Normalize CSS -->
 	<link rel="stylesheet" href="~/css/normalize.css" asp-append-version="true" />
 	<!-- Style CSS -->
@@ -18,27 +18,7 @@
 </head>
 <body>
 
-	<header>
-		<div id="header-container">
-			<div id="header-wrapper">
-				<!-- Header Logo -->
-				<img src="~/assets/images/bfblogo.png" />
-				<div>
-					<nav>
-						<ul id="header-menu-list">
-							<li>a</li>
-							<li>a</li>
-							<li>a</li>
-							<li>a</li>
-							<li>a</li>
-							<li>a</li>
-						</ul>
-					</nav>
-				</div>
-				<div>butonlar</div>
-			</div>
-		</div>
-	</header>
+	@await Html.PartialAsync("_Header")
 
 	<main>
 		<div id="main-container">

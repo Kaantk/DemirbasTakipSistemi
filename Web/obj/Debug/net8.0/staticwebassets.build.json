@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I5OLBcqQFLEK+0Ar1qtbzMzPk47WDqoXE9T9nSPJd78=",
+  "Hash": "MSPJRIXIhTFQuyk41zwyH3mD2pimk4ksRqOHSwX1z5I=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -164,6 +164,69 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\purpleVector.png"
     },
     {
+      "Identity": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\bell.svg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/svg/bell#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3m2u9grpi8",
+      "Integrity": "u0Fj172xk7sqKaHefwZT++pjpHz1VmuS9ImRBg4QBWc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\svg\\bell.svg"
+    },
+    {
+      "Identity": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\blueArrowBack.svg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/svg/blueArrowBack#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e5rvhrxfqf",
+      "Integrity": "Mmg2gUcBakQxQZSc2s0NUcKAzjt8CS/yX16Bc0F4fUA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\svg\\blueArrowBack.svg"
+    },
+    {
+      "Identity": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\user.svg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "assets/svg/user#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nhg5wrfg2w",
+      "Integrity": "uz6vdNY3v400ckXRAeOrDje70lThyT0TMIT7slY5ZOc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\svg\\user.svg"
+    },
+    {
       "Identity": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\normalize.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
@@ -185,12 +248,12 @@
       "OriginalItemSpec": "wwwroot\\css\\normalize.css"
     },
     {
-      "Identity": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\pages\\login.css",
+      "Identity": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\ForgotPassword.css",
       "SourceId": "Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\",
       "BasePath": "_content/Web",
-      "RelativePath": "css/pages/login#[.{fingerprint}]?.css",
+      "RelativePath": "css/Pages/ForgotPassword#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -199,11 +262,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mn5zucu4uv",
-      "Integrity": "nopPa/2rStbMpCSXDAxk2lKpnAoTdedmvp4RnmXYAVw=",
+      "Fingerprint": "v78nw5xa8q",
+      "Integrity": "W21Zl6SA2fB75ZHIxGXl8HprI3QzxLig/gsoVMzaxSU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\pages\\login.css"
+      "OriginalItemSpec": "wwwroot\\css\\Pages\\ForgotPassword.css"
+    },
+    {
+      "Identity": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\Login.css",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "css/Pages/Login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ni71i0dtmw",
+      "Integrity": "scGaX3Lqn6iRjWvti+PDv50ZFyr92y5cJcqP1CQtnQE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Pages\\Login.css"
+    },
+    {
+      "Identity": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\ResetPassword.css",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "css/Pages/ResetPassword#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v78nw5xa8q",
+      "Integrity": "W21Zl6SA2fB75ZHIxGXl8HprI3QzxLig/gsoVMzaxSU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Pages\\ResetPassword.css"
     },
     {
       "Identity": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\style.css",
@@ -220,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "m522954mx4",
-      "Integrity": "lusbXLvV60Xr+6IKQjAb4hifTuoj+rZf1v9oTO1m4lA=",
+      "Fingerprint": "5kk8qa5ihw",
+      "Integrity": "61NImHjej13NUPKjPOXMiKGzYJd9nS+Re0hOfz2LY3Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -1878,6 +1983,252 @@
       ]
     },
     {
+      "Route": "assets/svg/bell.3m2u9grpi8.svg",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\bell.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u0Fj172xk7sqKaHefwZT++pjpHz1VmuS9ImRBg4QBWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 05:17:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3m2u9grpi8"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/bell.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u0Fj172xk7sqKaHefwZT++pjpHz1VmuS9ImRBg4QBWc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/bell.svg",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\bell.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u0Fj172xk7sqKaHefwZT++pjpHz1VmuS9ImRBg4QBWc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 05:17:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u0Fj172xk7sqKaHefwZT++pjpHz1VmuS9ImRBg4QBWc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/blueArrowBack.e5rvhrxfqf.svg",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\blueArrowBack.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mmg2gUcBakQxQZSc2s0NUcKAzjt8CS/yX16Bc0F4fUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 10:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5rvhrxfqf"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/blueArrowBack.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mmg2gUcBakQxQZSc2s0NUcKAzjt8CS/yX16Bc0F4fUA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/blueArrowBack.svg",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\blueArrowBack.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mmg2gUcBakQxQZSc2s0NUcKAzjt8CS/yX16Bc0F4fUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 10:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mmg2gUcBakQxQZSc2s0NUcKAzjt8CS/yX16Bc0F4fUA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/user.nhg5wrfg2w.svg",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\user.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uz6vdNY3v400ckXRAeOrDje70lThyT0TMIT7slY5ZOc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 05:16:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nhg5wrfg2w"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/user.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uz6vdNY3v400ckXRAeOrDje70lThyT0TMIT7slY5ZOc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/user.svg",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\assets\\svg\\user.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uz6vdNY3v400ckXRAeOrDje70lThyT0TMIT7slY5ZOc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 05:16:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uz6vdNY3v400ckXRAeOrDje70lThyT0TMIT7slY5ZOc="
+        }
+      ]
+    },
+    {
       "Route": "css/normalize.css",
       "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\normalize.css",
       "Selectors": [],
@@ -1960,8 +2311,8 @@
       ]
     },
     {
-      "Route": "css/pages/login.css",
-      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\pages\\login.css",
+      "Route": "css/Pages/ForgotPassword.css",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\ForgotPassword.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1970,7 +2321,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7816"
+          "Value": "4160"
         },
         {
           "Name": "Content-Type",
@@ -1978,11 +2329,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nopPa/2rStbMpCSXDAxk2lKpnAoTdedmvp4RnmXYAVw=\""
+          "Value": "\"W21Zl6SA2fB75ZHIxGXl8HprI3QzxLig/gsoVMzaxSU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 12:10:29 GMT"
+          "Value": "Fri, 22 Aug 2025 10:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1992,13 +2343,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nopPa/2rStbMpCSXDAxk2lKpnAoTdedmvp4RnmXYAVw="
+          "Value": "sha256-W21Zl6SA2fB75ZHIxGXl8HprI3QzxLig/gsoVMzaxSU="
         }
       ]
     },
     {
-      "Route": "css/pages/login.mn5zucu4uv.css",
-      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\pages\\login.css",
+      "Route": "css/Pages/ForgotPassword.v78nw5xa8q.css",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\ForgotPassword.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2007,7 +2358,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7816"
+          "Value": "4160"
         },
         {
           "Name": "Content-Type",
@@ -2015,11 +2366,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"nopPa/2rStbMpCSXDAxk2lKpnAoTdedmvp4RnmXYAVw=\""
+          "Value": "\"W21Zl6SA2fB75ZHIxGXl8HprI3QzxLig/gsoVMzaxSU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 12:10:29 GMT"
+          "Value": "Fri, 22 Aug 2025 10:05:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2029,15 +2380,224 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mn5zucu4uv"
+          "Value": "v78nw5xa8q"
         },
         {
           "Name": "label",
-          "Value": "css/pages/login.css"
+          "Value": "css/Pages/ForgotPassword.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-nopPa/2rStbMpCSXDAxk2lKpnAoTdedmvp4RnmXYAVw="
+          "Value": "sha256-W21Zl6SA2fB75ZHIxGXl8HprI3QzxLig/gsoVMzaxSU="
+        }
+      ]
+    },
+    {
+      "Route": "css/Pages/Login.css",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"scGaX3Lqn6iRjWvti+PDv50ZFyr92y5cJcqP1CQtnQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 07:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-scGaX3Lqn6iRjWvti+PDv50ZFyr92y5cJcqP1CQtnQE="
+        }
+      ]
+    },
+    {
+      "Route": "css/Pages/Login.ni71i0dtmw.css",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\Login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3629"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"scGaX3Lqn6iRjWvti+PDv50ZFyr92y5cJcqP1CQtnQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 07:40:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ni71i0dtmw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Pages/Login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-scGaX3Lqn6iRjWvti+PDv50ZFyr92y5cJcqP1CQtnQE="
+        }
+      ]
+    },
+    {
+      "Route": "css/Pages/ResetPassword.css",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\ResetPassword.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W21Zl6SA2fB75ZHIxGXl8HprI3QzxLig/gsoVMzaxSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 10:21:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W21Zl6SA2fB75ZHIxGXl8HprI3QzxLig/gsoVMzaxSU="
+        }
+      ]
+    },
+    {
+      "Route": "css/Pages/ResetPassword.v78nw5xa8q.css",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\Pages\\ResetPassword.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W21Zl6SA2fB75ZHIxGXl8HprI3QzxLig/gsoVMzaxSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 10:21:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v78nw5xa8q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Pages/ResetPassword.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W21Zl6SA2fB75ZHIxGXl8HprI3QzxLig/gsoVMzaxSU="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.5kk8qa5ihw.css",
+      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"61NImHjej13NUPKjPOXMiKGzYJd9nS+Re0hOfz2LY3Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 07:35:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5kk8qa5ihw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-61NImHjej13NUPKjPOXMiKGzYJd9nS+Re0hOfz2LY3Q="
         }
       ]
     },
@@ -2052,7 +2612,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1575"
+          "Value": "3219"
         },
         {
           "Name": "Content-Type",
@@ -2060,11 +2620,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lusbXLvV60Xr+6IKQjAb4hifTuoj+rZf1v9oTO1m4lA=\""
+          "Value": "\"61NImHjej13NUPKjPOXMiKGzYJd9nS+Re0hOfz2LY3Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 12:18:30 GMT"
+          "Value": "Fri, 22 Aug 2025 07:35:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2074,52 +2634,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lusbXLvV60Xr+6IKQjAb4hifTuoj+rZf1v9oTO1m4lA="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.m522954mx4.css",
-      "AssetFile": "C:\\Users\\ktetik\\source\\repos\\DemirbasTakipSistemi\\Web\\wwwroot\\css\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1575"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lusbXLvV60Xr+6IKQjAb4hifTuoj+rZf1v9oTO1m4lA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 12:18:30 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "m522954mx4"
-        },
-        {
-          "Name": "label",
-          "Value": "css/style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-lusbXLvV60Xr+6IKQjAb4hifTuoj+rZf1v9oTO1m4lA="
+          "Value": "sha256-61NImHjej13NUPKjPOXMiKGzYJd9nS+Re0hOfz2LY3Q="
         }
       ]
     },
@@ -6984,7 +7499,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 Aug 2025 12:23:22 GMT"
+          "Value": "Fri, 22 Aug 2025 12:15:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7021,7 +7536,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 Aug 2025 12:23:22 GMT"
+          "Value": "Fri, 22 Aug 2025 12:15:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7058,7 +7573,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 Aug 2025 12:23:22 GMT"
+          "Value": "Fri, 22 Aug 2025 12:15:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7103,7 +7618,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 Aug 2025 12:23:22 GMT"
+          "Value": "Fri, 22 Aug 2025 12:15:31 GMT"
         },
         {
           "Name": "Cache-Control",

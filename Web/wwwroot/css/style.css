@@ -1,9 +1,13 @@
 /* Genel font ayarý */
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
 }
 
 /* Poppins Thin */
@@ -88,15 +92,22 @@ main {
 #main-container {
     width: 90%;
     max-width: 1200px;
-    background-color: red;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 #main-wrapper {
     width: 100%;
     flex: 1;
 }
+
+footer {
+    width: 100%;
+    padding: 10px 0px;
+    border-top: #00000017 0.25px solid;
+}
+
+/* HEADER START*/
 
 header {
     background-color: white;
@@ -112,31 +123,76 @@ header {
 #header-container {
     width: 90%;
     max-width: 1200px;
-    background-color: yellow;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 #header-wrapper {
-    background-color: purple;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#header-wrapper img {
-    width: 75px;
-}
+    #header-wrapper img {
+        width: 75px;
+    }
 
     #header-wrapper #header-menu-list {
         display: flex;
         align-items: center;
     }
 
-    footer {
-        width: 100%;
-        background-color: blue;
+#btnBell, #btnUser {
+    border: none;
+    background-color: #303030;
+    border-radius: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+    #btnBell img, #btnUser img {
+        width: 20px;
+        height: 20px;
     }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0px;
+#header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+#header-nav {
+    background-color: #303030;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+    #header-nav #header-menu-list {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        gap: 6px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+#header-menu-list li {
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+    #header-menu-list li:hover {
+        background-color: #fcfcfccc;
+        color: #303030;
+    }
+
+/* HEADER END */
+
+
+

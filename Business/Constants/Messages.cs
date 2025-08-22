@@ -18,7 +18,7 @@ namespace Business.Constants
         public static string CategoryDeleted = "Kategori başarıyla silindi.";
 
         public static string UserNotFound = "Kullanıcı bulunamadı.";
-        public static string PasswordError = "Şifre yanlıştır.";
+        public static string PasswordError = "Lütfen şifrenizi kontrol ediniz.";
         public static string SuccessfulLogin = "Giriş başarılıdır.";
 
         public static string UserAlreadyExists = "Bu e-posta adresi zaten kayıtlı.";

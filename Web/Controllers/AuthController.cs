@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Core.Utilities.Security.Hashing;
 using Entities.Dtos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,10 +10,12 @@ namespace Web.Controllers
     public class AuthController : Controller
     {
         private IAuthService _authService;
+        private IUserService _userService;
 
-        public AuthController(IAuthService authService)
+        public AuthController(IAuthService authService, IUserService userService)
         {
             _authService = authService;
+            _userService = userService;
         }
 
         [HttpGet]
@@ -27,6 +30,31 @@ namespace Web.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpGet("resetPassword")]
+        public IActionResult ResetPassword(int id)
+        {
+            // Kullanıcı ID'sine göre kullanıcıyı al
+            var user = _userService.GetById(id);
+
+            // Eğer kullanıcı bulunamazsa login sayfasına yönlendir
+            if (user == null)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+
+            // Eğer kullanıcı ForgotPassword durumunda değilse login sayfasına yönlendir 
+            var model = new UserForResetPasswordDto { UserId = id };
+
+            return View(model);
+        }
+
+        // Kullanıcı login sayfası işlemi
         [HttpPost("login")]
         public IActionResult Login(UserForLoginDto userForLoginDto)
         {
@@ -38,6 +66,12 @@ namespace Web.Controllers
             {
                 ViewBag.ErrorMessage = userToLogin.Message;
                 return View(userForLoginDto);
+            }
+
+            // Eğer kullanıcı ForgotPassword durumunda ise gerekli yönlendirme işlemlerini yap
+            if (userToLogin.Data.ForgotPassword == true)
+            {
+                return RedirectToAction("resetPassword", "auth", new { id = userToLogin.Data.Id });
             }
 
             // Kullanıcı login olduysa access token oluştur
@@ -69,6 +103,7 @@ namespace Web.Controllers
             return View(userForLoginDto);
         }
 
+        // Kullanıcı kaydı için gerekli olan endpoint
         [HttpPost("register")]
         public IActionResult Register(UserForRegisterDto userForRegisterDto)
         {
@@ -98,6 +133,67 @@ namespace Web.Controllers
             // Token oluşturma başarısızsa hata mesajı döndür
             ViewBag.ErrorMessage = result.Message;
             return View(userForRegisterDto);
+        }
+
+        // Şifremi sıfırlama işlemi için gerekli olan endpoint
+        [HttpPost("forgotPassword")]
+        public IActionResult ForgotPassword(UserForForgotPasswordDto userForForgotPasswordDto)
+        {
+            // Kullanıcı mail kontrolü
+            var user = _userService.GetByMail(userForForgotPasswordDto.Email);
+
+            if (user != null)
+            {
+                // Kullanıcının ForgotPassword durumunu true yap
+                user.ForgotPassword = true;
+                _userService.Update(user);
+
+                ViewBag.SuccessMessage = "Yeni şifreniz e-posta adresinize gönderildi. Lütfen kontrol ediniz.";
+                return View();
+            }
+            else
+            {
+                // Kullanıcı yoksa hata mesajı göster
+                ViewBag.ErrorMessage = "Bu e-posta adresi kayıtlı değil.";
+                return View(userForForgotPasswordDto);
+            }
+        }
+
+        // Yeni şifre oluşturma işlemi için gerekli olan endpoint
+        [HttpPost("resetPassword")]
+        public IActionResult ResetPassword(UserForResetPasswordDto userForResetPasswordDto)
+        {
+            // Şifreler eşleşmiyorsa hata mesajı döndür
+            if (userForResetPasswordDto.NewPassword != userForResetPasswordDto.ConfirmPassword)
+            {
+                ViewBag.ErrorMessage = "Şifreler eşleşmiyor.";
+                return View(userForResetPasswordDto);
+            }
+
+            // Kullanıcıyı al
+            var user = _userService.GetById(userForResetPasswordDto.UserId);
+
+            // Eğer kullanıcı yoksa hata mesajı döndür
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = "Kullanıcı bulunamadı.";
+                return View(userForResetPasswordDto);
+            }
+
+            // Hash işlemi
+            byte[] passwordHash, passwordSalt;
+            HashingHelper.CreatePasswordHash(userForResetPasswordDto.NewPassword, out passwordHash, out passwordSalt);
+
+            // Kullanıcının şifresini güncelle
+            user.PasswordHash = passwordHash;
+            user.PasswordSalt = passwordSalt;
+
+            user.ForgotPassword = false; // Şifre sıfırlama işlemi tamamlandığında ForgotPassword durumunu false yap
+
+            _userService.Update(user);
+
+            ViewBag.SuccessMessage = "Şifre başarıyla güncellendi.";
+            return View(userForResetPasswordDto);
         }
     }
 }

@@ -1,47 +1,140 @@
-﻿@media only screen and (min-width: 1025px) {
-    header {
-        display: none;
+﻿/* GLOBAL LOGIN CSS */
+
+header {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+#login-wrapper {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#illustrations {
+    display: none;
+}
+
+.blueVector, .purpleVector {
+    display: none;
+}
+
+#login-container {
+    background-color: white;
+    position: relative;
+    width: 90%;
+    border-radius: 18px;
+    padding: 32px;
+    box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+#button-login-form {
+    background-color: #0085DB;
+    border: none;
+    height: 30px;
+    color: white;
+    width: 100%;
+    border-radius: 40px;
+}
+
+    #button-login-form:hover {
+        cursor: pointer;
     }
 
-    #login-wrapper {
-        height: 100dvh;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+.bfbLogo {
+    width: 75px;
+}
+
+#login-base-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+
+.title-with-lines {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+    .title-with-lines::before,
+    .title-with-lines::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: #E5EAEF;
+        width: 100%;
     }
 
+    .title-with-lines::before {
+        margin-right: 10px;
+    }
+
+    .title-with-lines::after {
+        margin-left: 10px;
+    }
+
+.section-title {
+    color: #747576;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#login-base-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+    #login-base-form label {
+        color: #111C2D;
+        font-size: 14px;
+    }
+
+    #login-base-form input {
+        width: 100%;
+        height: 40px;
+        border: 1px solid #E9E9E9;
+        border-radius: 4px;
+        padding: 0px 10px;
+        margin-top: 4px;
+    }
+
+.forgot-password-link {
+    font-size: 14px;
+    text-decoration: none;
+    float: right;
+}
+
+#errorMessage {
+    font-weight: 500;
+    color: red;
+    font-size: 14px;
+}
+
+#project-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #111C2D;
+}
+
+/* DESKTOP EKRANI */
+@media only screen and (min-width: 1024px) {
     #illustrations {
+        display: block;
         width: 60%;
-    }
-
-    .blueVector {
-        width: 300px;
-        position: absolute;
-        top: 10%;
-        right: 15%;
-    }
-
-    .purpleVector {
-        width: 300px;
-        position: absolute;
-        bottom: 10%;
-        left: 15%;
-    }
-
-    #login-container {
-        position: relative;
-        width: 60%;
-        max-width: 1150px;
-        border-radius: 18px;
-        padding: 80px 80px 80px 32px;
-        background-color: white;
-        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
-        gap: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        z-index: 1;
     }
 
     #login-base-layout {
@@ -53,302 +146,35 @@
         gap: 20px;
     }
 
-    .bfbLogo {
-        width: 100px;
-        height: 75px;
-    }
-
-    .title-with-lines {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-    }
-
-        .title-with-lines::before,
-        .title-with-lines::after {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: #E5EAEF;
-            width: 100%;
-        }
-
-        .title-with-lines::before {
-            margin-right: 10px;
-        }
-
-        .title-with-lines::after {
-            margin-left: 10px;
-        }
-
-    .section-title {
-        color: #747576;
-        font-size: 14px;
-    }
-
     .login-form-base-layout {
         width: 100%;
     }
 
-    #login-base-form {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-        #login-base-form label {
-            color: #111C2D;
-            font-size: 14px;
-        }
-
-        #login-base-form input {
-            width: 100%;
-            height: 40px;
-            border: 1px solid #E9E9E9;
-            border-radius: 4px;
-            padding: 0px 10px;
-            margin-top: 4px;
-            font-size: 14px;
-        }
-
-            #login-base-form input:focus {
-                border: 1px solid gray;
-                outline: none;
-            }
-
-    #button-login-form {
-        background-color: #0085DB;
-        border: none;
-        height: 40px;
-        color: white;
-        width: 100%;
-        border-radius: 40px;
-    }
-
-        #button-login-form:hover {
-            cursor: pointer;
-        }
-
-    .forgot-password-link {
-        font-size: 14px;
-        text-decoration: none;
-        float: right;
-    }
-}
-
-
-@media only screen and (min-width: 426px) {
-    #login-wrapper {
-        height: 100dvh;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #illustrations {
-        width: 60%;
-    }
-
-    .blueVector {
-        width: 200px;
-        position: absolute;
-        top: 15%;
-        right: 1%;
-    }
-
-    .purpleVector {
-        width: 200px;
-        position: absolute;
-        bottom: 15%;
-        left: 1%;
-    }
-
     #login-container {
         position: relative;
-        width: 90%;
-        border-radius: 18px;
-        padding: 32px 24px;
-        background-color: white;
-        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
-        gap: 20px;
-        display: flex;
-        align-items: center;
+        padding: 62px 80px 62px 32px;
         z-index: 1;
     }
 
-    #login-base-layout {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 14px;
+    .blueVector {
+        display: block;
+        position: absolute;
+        width: 300px;
+        top: 12%;
+        right: 15%;
     }
 
-    .bfbLogo {
-        width: 75px;
-        height: 60px;
-    }
-
-    .title-with-lines {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-    }
-
-        .title-with-lines::before,
-        .title-with-lines::after {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: #E5EAEF;
-            width: 100%;
-        }
-
-        .title-with-lines::before {
-            margin-right: 10px;
-        }
-
-        .title-with-lines::after {
-            margin-left: 10px;
-        }
-
-    .section-title {
-        color: #747576;
-        font-size: 14px;
+    .purpleVector {
+        display: block;
+        position: absolute;
+        width: 300px;
+        bottom: 10%;
+        left: 15%;
     }
 
     #login-base-form {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
+        gap: 28px;
     }
-
-        #login-base-form label {
-            color: #111C2D;
-            font-size: 14px;
-        }
-
-        #login-base-form input {
-            width: 100%;
-            height: 40px;
-            border: 1px solid #E9E9E9;
-            border-radius: 4px;
-            padding: 0px 10px;
-            margin-top: 4px;
-        }
-
-    #button-login-form {
-        background-color: #0085DB;
-        border: none;
-        height: 30px;
-        color: white;
-        width: 100%;
-        border-radius: 40px;
-    }
-
-        #button-login-form:hover {
-            cursor: pointer;
-        }
-
-    .forgot-password-link {
-        font-size: 12px;
-        text-decoration: none;
-        float: right;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    #login-wrapper {
-        height: 100dvh;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #illustrations {
-        display: none;
-    }
-
-    .blueVector, .purpleVector {
-        display: none;
-    }
-
-    #login-container {
-        width: 90%;
-        border-radius: 18px;
-        padding: 32px;
-        background-color: white;
-        box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.1);
-    }
-
-    #login-base-layout {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 24px;
-    }
-
-    .bfbLogo {
-        width: 75px;
-        height: 60px;
-    }
-
-    .title-with-lines {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-    }
-
-        .title-with-lines::before,
-        .title-with-lines::after {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: #E5EAEF;
-            width: 100%;
-        }
-
-        .title-with-lines::before {
-            margin-right: 10px;
-        }
-
-        .title-with-lines::after {
-            margin-left: 10px;
-        }
-
-    .section-title {
-        color: #747576;
-        font-size: 14px;
-    }
-
-    #login-base-form {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-        #login-base-form label {
-            color: #111C2D;
-            font-size: 14px;
-        }
-
-        #login-base-form input {
-            width: 100%;
-            height: 40px;
-            border: 1px solid #E9E9E9;
-            border-radius: 4px;
-            padding: 0px 10px;
-            margin-top: 4px;
-        }
 
     #button-login-form {
         background-color: #0085DB;
@@ -357,20 +183,18 @@
         color: white;
         width: 100%;
         border-radius: 40px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* yumuşak geçiş */
     }
 
         #button-login-form:hover {
-            cursor: pointer;
+            background-color: #006bb5; /* daha koyu mavi */
+        }
+        .title-with-lines::before {
+            margin-right: 20px;
         }
 
-    .forgot-password-link {
-        font-size: 14px;
-        text-decoration: none;
-        float: right;
-    }
-
-    #home-wrapper {
-        height: 100dvh;
-    }
+    .title-with-lines::after {
+        margin-left: 20px;
+    }  
 }
-
